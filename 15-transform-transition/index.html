@@ -8,18 +8,31 @@
     <title>Transform & Transition</title>
   </head>
   <body>
-    <!-- No Transition -->
-    <button
-      class="px-8 py-2 m-24 text-white bg-blue-500 rounded hover:bg-blue-700"
-    >
-      Click me
-    </button>
+    <div class="flex flex-col w-[40%]">
+      <!-- No Transition -->
+      <button
+        class="px-8 py-2 m-24 text-white bg-blue-500 rounded hover:bg-blue-700"
+      >
+        Click me
+      </button>
 
-    <!-- Transition -->
-
-    <!-- Transition & Transform -->
-
-    <!-- Transform & Transition -->
+      <!-- Transition -->
+      <button
+        class="px-8 py-2 m-24 text-white bg-blue-500 rounded hover:bg-blue-700 transition duration-600"
+      >
+        Click me
+      </button>
+      <!-- Transition & Transform -->
+      <button
+        class="px-8 py-2 m-24 text-white bg-blue-500 rounded hover:bg-blue-700 hover:rotate-12 transition duration-600"
+      >
+        Click me
+      </button>
+      <img
+        src="../assets/img/img5.jpg"
+        class="hover:rotate-45 hover:blur transition duration-1000 cursor-pointer"
+      />
+    </div>
   </body>
 </html>
 
